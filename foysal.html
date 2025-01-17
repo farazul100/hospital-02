@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- divinectorweb.com -->
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Resume website html css</title>
+	<link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    <style>
+        * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #00b6c4;
+	font-family: 'Solaiman Lipi', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #00b6c4;
+}
+.container {
+	background: #f5f5f5;
+	max-width: 800px;
+	margin: 60px auto;
+	height: auto;
+	padding: 20px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+.header {
+	text-align: center;
+}
+.header h1 {
+	margin-bottom: 10px;
+}
+.header h3 {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+}
+.img-area {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 25px auto;
+	border: 15px groove deepskyblue;
+}
+.img-area img {
+	width: 100%;
+}
+.main {
+	display: flex;
+	flex-wrap: wrap;
+}
+.left {
+	flex: 1;
+	padding: 30px;
+}
+.left p {
+	line-height: 2;
+}
+.left ul li {
+	line-height: 2;
+}
+h2 {
+	background: deepskyblue;
+	padding: 15px;
+	color: #fff;
+	margin: 30px 0;
+	font-size: 20px;
+	border-radius: 0 50px 50px 0;
+}
+.right {
+	flex: 1;
+	padding: 30px;
+}
+.right h3 {
+	margin-bottom: 15px;
+}
+.right p {
+	line-height: 2.9;
+}
+.right ul li {
+	line-height: 2;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 95%;
+		height: auto;
+	}
+	h2 {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.main {
+		flex-direction: column;
+	}
+	.left, .right {
+		flex: none;
+		width: 100%;
+	}
+	.container {
+		width: 95%;
+		height: auto;
+	}
+	h2 {
+		font-size: 15px;
+	}
+}
+
+    </style>
+</head>
+<body>    
+    <div class="container">
+      <div class="header">
+        <div class="img-area">
+            <img src="./images/blank.png" alt="">
+        </div>
+        <h1>ডাঃ উত্তম চন্দ্র কর</h1>
+        <h3><b>এমবিবিএস (ঢাকা), পিজিটি (মেডিসিন, নিউরো মেডিসিন, হৃদরোগ, ডায়াবেটিস ও গ্যস্ট্রোলিভার)</b><br><br><hr/><br>
+			হৃদরোগ বিশেষজ্ঞ, ডায়াবেটিস বিশেষজ্ঞ, গ্যাস্ট্রোলজিস্ট, মেডিসিন বিশেষজ্ঞ, স্নায়ু রোগ-নিউরোলজি বিশেষজ্ঞ
+		</h3>
+      </div>
+
+      <div class="main">
+        <div class="left">
+          <h2><b>বুক অ্যাপয়েন্টমেন্ট</b></h2>
+          <ul>
+			<li>০৯৬১৩৮২০৫৯৫</li>
+			<li>০১৯৪৬১০২১০২</li>
+			<li>০১৯০৬৩৯৯৪৯৬</li>
+			<li>০১৯০৬৩৯৯৪৯৭</li>
+		  </ul>
+          <h2><b>চেম্বার সময়সূচী</b></h2>
+          <ul>
+            <li><b>ঠিকানা<br><a href="https://www.google.com/maps/place/Digital+Diagnostics+Centre/@23.1686331,89.2113779,17z/data=!3m1!4b1!4m6!3m5!1s0x39ff117fb05f59e9:0x41149f41102b20fe!8m2!3d23.1686331!4d89.2113779!16s%2Fg%2F11ls55skzh?entry=ttu&g_ep=EgoyMDI1MDExNC4wIKXMDSoASAFQAw%3D%3D">ডিজিটাল ডায়াগনস্টিক সেন্টার, যশোর।</b></a></li><hr/>
+            <li><b>শনিবার</b><br>সকাল ১১:০০টা হতে দুপুর ২:০০টা</li>
+            <li><b>রবিবার</b><br>সকাল ১১:০০টা হতে দুপুর ২:০০টা</li>
+            <li><b>সোমবার</b><br>সকাল ১১:০০টা হতে দুপুর ২:০০টা</li>
+            <li><b>মঙ্গলবার</b><br>সকাল ১১:০০টা হতে দুপুর ২:০০টা</li>
+			<li><b>বুধবার</b><br>সকাল ১১:০০টা হতে দুপুর ২:০০টা</li>
+			<li><b>বৃহস্পতিবার</b><br>সকাল ১১:০০টা হতে দুপুর ২:০০টা</li>
+			<li><b>শুক্রবার</b><br>সকাল ১১:০০টা হতে দুপুর ২:০০টা</li>
+          </ul>
+          <h2> <b>ডাক্তারের পরামর্শ ফি</b></h2>
+          <ul>
+			<li>নতুন রোগী ৳৫০০ টাকা</li>
+			<li>পুরাতন রোগী ৳৪০০ টাকা</li>
+		  </ul>
+        </div>
+        
+        <div class="right">
+          <h2><b> যে সকল রোগের চিকিৎসা করা হয়</b></h2>
+          <ul>
+			<li>হার্ট এ্যাটাক/হার্টব্লক, বুকে ব্যাথা।</li>
+			<li>উচ্চ রক্ত চাপ (হাইপারটেনশন)।</li>
+			<li>হাঁটতে হাপিয়ে যাওয়া/হার্ট ফেইলিওর।</li>
+			<li>অ্যাঞ্জিওগ্রাম, রিংপ্রেসমেকারওবাইপাসরোগীরপরামর্শ।</li>
+			<li>হাঁটতে যেয়ে মাথা ঘুরেপরে যাওয়া।</li>
+			<li>শ্বাস কষ্টে রাতে ঘুমাতে না পারা।</li>
+			<li>বুক ধড়ফড় করা (প্যালপিটিশন)।</li>
+			<li>বাতজ্বর ও বাতজ্বর জনিত হৃদরোগ, জন্মগত হৃদরোগ।</li>
+			<li>ডায়াবেটিকস জনিত ক্ষত।</li>
+			<li>ডায়াবেটিকস জনিত কিডনি রোগ।</li>
+			<li>ডায়াবেটিকস জনিত শিরা ও অন্যান্য রোগ।</li>
+			<li>গর্ভজনিত ডায়াবেটিকস সমস্যা।</li>
+			<li>ডায়াবেটিকস রোগীর সুগার বৃদ্ধি ও কোমা।</li>
+			<li>ডায়াবেটিকস জনিত মাথা ঘোরা ও অজ্ঞান হওয়া।</li>
+			<li>গা,হাত ও পা ঝিন ঝিন করা।</li>
+			<li>জন্মগত/বংশগত ডায়াবেটিকস সমস্যা।</li>
+			<li>এছাড়া ডায়াবেটিকস সংক্রান্ত সকল রোগ বিশেষজ্ঞ।</li>
+			<li>পেট ফাঁপা/গ্যাসের সমস্যা/অতিরিক্ত এসিডিটি।</li>
+			<li>জন্ডিস/ লিভারজন্ডিস।</li>
+			<li>হেপাটাইটিস বি ও সি-ভাইরাস।</li>
+			<li>লিভারসিরোসিস/প্যানক্রিয়াটাইটিস।</li>
+			<li>এন্ট্ররাল গ্যাস্টাইটিস।</li>
+			<li>খাদ্যনালী, পাকস্থলীতে ক্ষত/ঘা।</li>
+			<li>ক্ষুধামন্দা/বমিবমি ভাব হওয়া, খাবারের অরুচি।</li>
+			<li>লিভারে চর্বি।</li>
+			<li>পেটের সকল ধরনের পীড়ারোগ ও মেডিসিন রোগ বিশেষজ্ঞ।</li>
+			<li>উচ্চ রক্তচাপ।</li>
+			<li>নিম্ন রক্তচাপ।</li>
+			<li>বুকে ব্যাথা।</li>
+			<li>বুক ধড়ফড় করা।</li>
+			<li>পেটে সমস্যা।</li>
+			<li>রক্তে অতিরিক্ত চর্বি (Hyperlipidemia)।</li>
+			<li>অকারণ দুর্বলতা, ক্ষুধামন্দা, বমিভাব ও বমি হওয়া।</li>
+			<li>ঘন ঘন জ্বর আসা/কাঁপুনী দিয়ে জ্বর আসা।</li>
+			<li>প্রস্রাবে ইনফেকশন।</li>
+			<li>প্রেসার ওঠানামা।</li>
+			<li>মেডিসিন জনিত সব ধরনের রোগ বিশেষজ্ঞ।</li>
+			<li>স্ট্রোক।</li>
+			<li>মাথা ব্যাথা ও মাথা ঘোরা।</li>
+			<li>মাইগ্রেইন/ সাইনোসাইটিস।</li>
+			<li>মুখ বেকে যাওয়া।</li>
+			<li>মস্তিষ্কে রক্ত ক্ষরণ।</li>
+			<li>মাথায় অস্বস্থি।</li>
+			<li>হাত, পা ঝিন ঝিন করা ও অবশতা, হাত পা কাঁপা।</li>
+			<li>ঘাড়, কোমর ও মেরুদণ্ডের ব্যাথা।</li>
+			<li>হাত ও পায়ের শক্তি কমে যাওয়া।</li>
+			<li>খিচুনি/মৃগী রোগ।</li>
+			<li>টেনশন/অনিদ্রা।</li>
+			<li>স্নায়ু ও শিরার রোগজনীত সমস্যা।</li>
+			<li>হাত ও পা-এর মাংসপেশী শুকিয়ে যাওয়া।</li>
+		</ul>
+
+        </div>
+      </div>
+    </div> 
+
+</body>
+</html>
+
